@@ -8,8 +8,8 @@ from gpiozero import LED
 
 led = LED(18) 
 
-TELEGRAM_TOKEN = "8727745150:AAH7C66yRBjjcNASPXcB8PgWFTp3TI4qkAw"
-CHAT_ID = "8317399107"
+TELEGRAM_TOKEN = "-----------------------"
+CHAT_ID = "------------"
 
 def send_telegram_photo(image_path, caption_text):
     url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendPhoto"
